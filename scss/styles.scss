@@ -1,0 +1,42 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500;600;700 &display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,700&display=swap');
+@import "_tags","_card";
+
+.category {
+    text-transform: uppercase;
+    letter-spacing: 5px;
+    font-size: 12px;
+    margin: 0 0 1.5em;
+}
+.description {
+    line-height: 1.5;
+    font-size: 14px;
+    margin-bottom:0;
+
+}
+.price-container{
+    display: flex;
+    align-items: center;
+    margin-top: 1em;
+    margin-bottom: 1em;
+}
+.price,.old-price{
+    margin: 0;
+}
+.price{
+    font-family: 'Fraunces',cursive;
+    font-size: 2em;
+    color: rgb(18, 130, 81);
+    display: inline;
+}
+.old-price{
+    display: inline;
+    text-decoration: line-through;
+    font-size: 12px;
+    padding-left: 1em;
+}
+
+.cart{
+    width: 12px;
+    margin-right: .5em;
+}
