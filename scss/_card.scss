@@ -20,13 +20,6 @@
     border-radius: 10px 0 0 10px;
     min-width: 250px;
     min-height: 100%;
-    background-image: url('../images/image-product-desktop.jpg');
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-clip: border-box;
-    background-position: center;
-
-
 }
 .card-right-bottom {
     padding: 1.5em;
@@ -34,8 +27,13 @@
     flex-direction: column;
     justify-content: center;
 }
+.img-perfume{
+    width: 100%;
+    border-radius: 10px 0 0 10px ;
+    height: 100%;
+}
 
-@media screen and(max-width:765px){
+@media screen and(max-width:650px){
     .card{
         display: flex;
         flex-direction: column;
@@ -45,13 +43,12 @@
     .card-left-top {
         border-radius: 10px 10px 0 0px;
         min-width: 250px;
+        max-width: 375px;
         height: 250px;
-        background-image: url('../images/image-product-mobile.jpg');
-        background-size: cover;
-        background-repeat: no-repeat;
-        background-clip: border-box;
-    
-    
+    }
+    .img-perfume{
+        width: 100%;
+        border-radius: 10px 10px 0  0 ;
     }
     
 }
