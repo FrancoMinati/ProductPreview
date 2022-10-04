@@ -57,7 +57,8 @@ button {
   background-image: url("../images/image-product-desktop.jpg");
   background-size: cover;
   background-repeat: no-repeat;
-  background-clip: border-box; }
+  background-clip: border-box;
+  background-position: center; }
 
 .card-right-bottom {
   padding: 1.5em;
