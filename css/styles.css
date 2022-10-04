@@ -30,7 +30,8 @@ button {
   font-family: 'Monserrat',sans-serif;
   border-radius: 5px;
   padding: 1em;
-  font-weight: 700; }
+  font-weight: 700;
+  cursor: pointer; }
 
 .container {
   display: flex;
@@ -74,7 +75,7 @@ button {
     border-radius: 10px 10px 0 0px;
     min-width: 250px;
     height: 250px;
-    background-image: url("../images/");
+    background-image: url("../images/image-product-mobile.jpg");
     background-size: cover;
     background-repeat: no-repeat;
     background-clip: border-box; } }
